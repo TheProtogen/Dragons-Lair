@@ -1,0 +1,28 @@
+/* Background estático */
+body, html{
+    height: 100%;
+    background-image: url(imagens/oneshot\ city.jpg);
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Design do botão e centralização do mesmo */
+.buttonStart {
+    text-align: center;
+    border-color: black;
+    border-radius: 2px;
+}
+
+/* Centralização e posição do logo */
+.Logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}

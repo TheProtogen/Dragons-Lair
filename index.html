@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Comandos básicos -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título -->
+    <title>JavaTest</title>
+    
+    <!-- Códigos JavaScript -->
+    <!-- Chama os processadores por esse código-->
+    <script src="processador.js"></script>
+    <script src="processador1.js"></script>
+    
+    <!-- Códigos CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <!-- Botão no meio para pegar "nome" -->
+    <div class="buttonStart">
+        <!-- Chama a função TesteJava que está no processador(js) -->
+        <button id="buttonThing" onclick="TesteJava(),toggle(this)"><h3 style="font-style: italic;">Set your name to continue</h3></button>
+    </div>
+
+
+    <!-- Quebra de linha com um pouquinho de estilo -->
+    <hr id="myHr" style="color: darkmagenta; height: 2px;">
+
+    <!-- Logo -->
+    <img src="/imagens/Oneshot logo.jpg" alt="Logo" class="Logo">
+
+    
+    <!-- Divs que seguram informação da página -->
+    <!-- Observe que cada div possui um id, que será usado no processador1 -->
+
+
+    <!-- Div de boas vindas -->
+    <div hidden id="myDiv1" style="background-color: rgb(151, 25, 92);padding: 8px;border-style: dotted ;">
+        <h2 style="font-family:Arial, Helvetica, sans-serif;">Hello <span id="nome" style="text-transform: uppercase"></span>!
+        Welcome to the site!</h2>
+        
+        <!-- Caso precise de texto para preencher espaço, apenas digite lorem e esse texto gigante vai ser criado -->
+        <h4 style="font-style: oblique;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem ipsam ducimus est soluta alias architecto eius, vero, quas sequi modi molestiae vitae incidunt doloremque autem dolor velit ipsum temporibus dolorum?</h4>
+    </div>
+    
+    <br>
+    <br>
+    
+    <!-- Div do "Niko" -->
+    <div hidden id="myDiv2" style="background-color: rgb(151, 25, 92); padding: 10px; border-style: dotted; float: left; width: 900px;">
+        <p style="float:left;"><img src="/imagens/niko oneshot.jpg" alt="Niko" style="width: 80px;height: 90px;padding: 5px;border: 1px;"></p>
+        <p><h2>Niko</h2></p>
+        <p><h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente fugit tenetur illo sed culpa alias omnis eveniet, neque repellendus explicabo incidunt ducimus quis suscipit id quos reiciendis assumenda ut dolor.</h5></p>
+        
+    </div>
+
+    <!-- Div da "Lightbulb" -->
+    <div hidden id="myDiv3" style="background-color: rgb(151, 25, 92); padding: 10px; border-style: dotted; float: left; width: 900px;">
+        <p style="float:left;"><img src="/imagens/One shot lightbulb.png" alt="Lampada" style="width: 80px;height: 87px; padding: 5px; border: 1px;"></p>
+        <p><h2>Lightbulb</h2></p>
+        <p><h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate hic, pariatur excepturi ut temporibus, error saepe est, eum nostrum repudiandae adipisci dicta reiciendis. Iure, ut porro. Perferendis pariatur dicta incidunt?</h5></p>
+    </div>
+
+
+
+</body>
+</html>
