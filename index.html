@@ -24,7 +24,7 @@
     <!-- Botão no meio para pegar "nome" -->
     <div class="buttonStart">
         <!-- Chama a função TesteJava que está no processador(js) -->
-        <button id="buttonThing" onclick="TesteJava(),toggle(this)"><h3 style="font-style: italic;">Set your name to continue</h3></button>
+        <button id="buttonThing" onclick="TesteJava(),toggle()"><h3 style="font-style: italic;">Set your name to continue</h3></button>
     </div>
 
 
@@ -40,33 +40,45 @@
 
 
     <!-- Div de boas vindas -->
-    <div hidden id="myDiv1" style="background-color: rgb(151, 25, 92);padding: 8px;border-style: dotted ;">
-        <h2 style="font-family:Arial, Helvetica, sans-serif;">Hello <span id="nome" style="text-transform: uppercase"></span>!
-        Welcome to the site!</h2>
+    <div hidden id="myDiv1" class="toTheSide">
+        <h2 style="font-family:Arial, Helvetica, sans-serif;">Olá <span id="nome" style="text-transform: uppercase"></span>!
+        </h2>
         
         <!-- Caso precise de texto para preencher espaço, apenas digite lorem e esse texto gigante vai ser criado -->
-        <h4 style="font-style: oblique;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem ipsam ducimus est soluta alias architecto eius, vero, quas sequi modi molestiae vitae incidunt doloremque autem dolor velit ipsum temporibus dolorum?</h4>
+        <h4 style="font-style: oblique;">Bem-vindo ao meu primeiro site :3</h4>
     </div>
     
     <br>
     <br>
     
     <!-- Div do "Niko" -->
-    <div hidden id="myDiv2" style="background-color: rgb(151, 25, 92); padding: 10px; border-style: dotted; float: left; width: 900px;">
-        <p style="float:left;"><img src="/imagens/niko oneshot.jpg" alt="Niko" style="width: 80px;height: 90px;padding: 5px;border: 1px;"></p>
+    <div hidden id="myDiv2" class="toTheSide">
+        <p style="float:left;"><img src="/imagens/niko oneshot.jpg" alt="Niko" style="width: 80px;height: 90px;padding: 5px;border: 3px;"></p>
         <p><h2>Niko</h2></p>
-        <p><h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente fugit tenetur illo sed culpa alias omnis eveniet, neque repellendus explicabo incidunt ducimus quis suscipit id quos reiciendis assumenda ut dolor.</h5></p>
+        <p><h5>Niko é o protagonista do jogo OneShot. Ele é encarregado com a nobre missão de retornar o Sol à Torre e salvar o mundo de morrer.</h5></p>
         
     </div>
 
+    <br>
+
     <!-- Div da "Lightbulb" -->
-    <div hidden id="myDiv3" style="background-color: rgb(151, 25, 92); padding: 10px; border-style: dotted; float: left; width: 900px;">
-        <p style="float:left;"><img src="/imagens/One shot lightbulb.png" alt="Lampada" style="width: 80px;height: 87px; padding: 5px; border: 1px;"></p>
-        <p><h2>Lightbulb</h2></p>
-        <p><h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate hic, pariatur excepturi ut temporibus, error saepe est, eum nostrum repudiandae adipisci dicta reiciendis. Iure, ut porro. Perferendis pariatur dicta incidunt?</h5></p>
+    <div hidden id="myDiv3" class="toTheSide">
+        <p style="float:left;"><img src="/imagens/One shot lightbulb.png" alt="Lampada" style="width: 80px;height: 87px; padding: 5px; border: 3px;"></p>
+        <p><h2>Sol</h2></p>
+        <p><h5>Essa lampada é o Sol, que deve ser colocado na Torre para que o mundo seja salvo. Sem ele, a energia do mundo fica fraca</h5></p>
     </div>
 
+    <br>
 
+    <table hidden id="myTable1" class="epicBorder">
+        <tbody>
+            <th class="textStyle">
+                <b>Olá...Novamente?</b>
+                <br>
+                <b>Isso aqui é um texto muuuuuuuito grande que só serve para ocupar espaço...</b>
+            </th>
+        </tbody>
+    </table>
 
 </body>
 </html>
