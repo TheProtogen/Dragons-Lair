@@ -1,7 +1,7 @@
 /* Background estático */
 body, html{
     height: 100%;
-    background-image: url(imagens/oneshot\ city.jpg);
+    background-color: #F5F3E0;
 
     height: 100%;
 
@@ -11,20 +11,16 @@ body, html{
     background-attachment: fixed;
 }
 
-/* Design do botão e centralização do mesmo */
-.buttonStart {
-    text-align: center;
-    border-color: black;
-    border-radius: 2px;
-}
+.secondPage {
+    height: 100%;
+    background-image: url(imagens/newoneshot.png);
 
-/* Centralização e posição do logo */
-.Logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    height: 100%;
+
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
 }
 
 .epicBorder{
@@ -57,13 +53,79 @@ body, html{
     color: white;
 }
 
+/* margin: 0 auto  (centraliza as coisas) */
+
+/*
 .toTheSide {
     color: white;
     background-color: #180C1E; 
     padding: 10px; 
     border-style:solid; 
-    float: left; 
     width: 900px;
-    margin: 5px
+    margin: 5px;
 
+    margin: 0 auto
+}
+*/
+body {
+    margin: 0px; /* Remove default margin */
+}
+
+main {
+    margin-left: 20px;
+}
+
+header {
+    background-color:#3F2B27;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 100%;
+    text-align: center;
+    
+    
+    top: 0;
+    left: 0;
+    border-bottom: 4px solid #B0E0E6;
+    z-index: 1000;
+    
+}
+nav {
+    margin-top: 10px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px
+}
+nav a {
+    
+    text-decoration: none;
+    color: #B0E0E6;
+    display: block;
+    text-align: center;
+    padding: 10px;
+
+    overflow: hidden;
+}
+nav a:hover {
+    color: #3F2B27;
+    background-color: #F5F3E0;
+}
+nav li {
+    float: left;
+}
+
+
+
+footer {
+    background-color:#3F2B27;
+
+    width: 100%;
+    text-align: center;
+    padding-bottom: 60px;
+
+    bottom: 0;
+    left: 0;
+    border-top: 4px solid #B0E0E6;
+    z-index: 1000;
 }
