@@ -64,7 +64,7 @@ header {
     
     top: 0;
     left: 0;
-    border-bottom: 4px solid #B0E0E6;
+    border-bottom: 4px solid #d82c2c;
     z-index: 1000;
     
 }
@@ -79,7 +79,7 @@ nav ul{
 nav a {
     
     text-decoration: none;
-    color: #B0E0E6;
+    color: #F5F3E0;
     display: block;
     text-align: center;
     padding: 10px;
@@ -105,7 +105,7 @@ footer {
 
     bottom: 0;
     left: 0;
-    border-top: 4px solid #B0E0E6;
+    border-top: 4px solid #d82c2c;
     z-index: 1000;
 }
 
@@ -162,6 +162,47 @@ footer {
 .textStyle{
     color: white;
 }
+
+.titlediv {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    color: #F5F3E0;
+    font-family: Bookman, URW Bookman L, serif;
+
+    margin: 0 15px;
+    font-size: 40px;
+    
+}
+
+
+.titlediv img {
+    
+
+    display: flex; /* Torna o bloco um contêiner flexível */
+    justify-content: center; /* Centraliza a imagem horizontalmente */
+    align-items: center;
+
+    image-rendering: pixelated;
+
+    max-width: 128px; /* Garante que a imagem não ultrapasse o tamanho do bloco */
+    max-height: 128px;
+
+    width: 128px;
+    height: 128px; /* Mantém a proporção da imagem */
+
+    border-radius: 1px;
+    margin: 0 15px;
+
+    
+
+}
+
+
 
 .contextoBloco {
     display: flex;
